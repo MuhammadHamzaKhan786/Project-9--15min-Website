@@ -12,7 +12,7 @@ name = ["Hamza", "Ali", "Sara", "Aisha", "Omar", "Fatima", "Zain", "Hassan", "Ya
 surname = ["Khan", "Ali", "Ahmed", "Hussain", "Iqbal", "Shaikh", "Syed", "Farooq", "Raza", "Memon"]
 
 students = []
-for i in range(1,16):
+for i in range(1,25):
     student = {
         "Student ID": i,
         "Name": random.choice(name),
