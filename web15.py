@@ -18,7 +18,7 @@ for i in range(1,16):
         "Name": random.choice(name),
         "Surname": random.choice(surname),
         "Age": random.randint(18, 25),
-        "Gender": random.choice(["Male", "Female"])
+        "Gender": random.choice(["Male", "Female"]),
         "Grade": random.choice(["A", "B", "C", "D", "E"]),
         "Marks": random.randint(50, 100),
         "Attendance": random.randint(0, 100),
